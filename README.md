@@ -13,6 +13,9 @@
 Please note that this repo is going to be updated and a unified program to do the mentioned tasks will be published. So, stay tuned!
 
 _Climate Data_ folder includes the lighting and sky conditions of Tehran's climate.
+
 _K-meansClustering_ folder includes the k-means clustering-related script.
+
 _RadianceRendering_ folder includes the scripts for Radiance renderings.
+
 _analysis_ folder includes the scripts for the image analysis.
