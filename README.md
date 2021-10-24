@@ -1,5 +1,5 @@
 # FacadeVisualComfort
-## Annual synthetic Radiance HDR renderings and image analysis
+## Annual synthetic Radiance HDR image renderings and analysis
 
 **This repository includes:**
 
