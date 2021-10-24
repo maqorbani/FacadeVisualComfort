@@ -29,3 +29,14 @@ Rendering starts with designing the required 3D file in a 3D CAD software like R
 The sky descriptions of the climate are extracted from the EPW climate file of the city. Additionally, the climate's sky conditions data is also necessary for the following steps.
 
 ![image](https://user-images.githubusercontent.com/47574645/138586916-1216f283-8569-47a6-aa37-ac7aad27480b.png)
+
+The rendering scripts and files are implemented on a Linux-based VPS, and the rendering process is initiated concurrently on each of the VPS's CPU cores. The rendering period could be annually or be a subset of the year. Moreover, using the K-means clustering method, annual representative hours could be selected to render and predict the remaining images using the deep learning model.
+
+After each image is rendered, the script automatically extracts them into a float32 NumPy array, ready for the deep learning step.
+
+## Analysis
+
+The analysis script analyses the images based on the required criteria, e.g., max_luminance, average_luminance, DGP value, etc., and plots the annual heatmap for the desired extracted parameter. 
+
+
+![Alt2_mean](https://user-images.githubusercontent.com/47574645/138587942-1934cf17-3e50-4097-ab12-3af41075cbf4.png)
