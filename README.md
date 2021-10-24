@@ -32,6 +32,8 @@ The sky descriptions of the climate are extracted from the EPW climate file of t
 
 The rendering scripts and files are implemented on a Linux-based VPS, and the rendering process is initiated concurrently on each of the VPS's CPU cores. The rendering period could be annually or be a subset of the year. Moreover, using the K-means clustering method, annual representative hours could be selected to render and predict the remaining images using the deep learning model.
 
+![HDRs](https://user-images.githubusercontent.com/47574645/138588301-eca3a80b-8a4e-4d86-a4a8-ae2a046530fb.gif)
+
 After each image is rendered, the script automatically extracts them into a float32 NumPy array, ready for the deep learning step.
 
 ## Analysis
