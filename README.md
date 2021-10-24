@@ -4,7 +4,7 @@
 **This repository includes:**
 
 * Python script to run Radiance software on a Linux-based machine to simulate annual (or a subset of) luminance-based images in a given Radiance scene and settings.
-* Python script to do a k-means clustering to find the required renderings bsaed on the target's climate conditions, based on [this paper](https://arxiv.org/abs/2009.09928) 
+* Python script to do a k-means clustering to find the required renderings based on the target's climate conditions, based on an enhanced version of [this paper](https://arxiv.org/abs/2009.09928).
 * Python script to create tensor-based data sets out of the simulated images.
 * Python script for deep learning to predict annual luminance-based images (the unstimulated images in the annual data set).
 * Python script to analyze and evaluate the resulting images on the desirable parameters based on the luminance distribution of the images.
@@ -19,3 +19,5 @@ _K-meansClustering_ folder includes the k-means clustering-related script.
 _RadianceRendering_ folder includes the scripts for Radiance renderings.
 
 _analysis_ folder includes the scripts for the image analysis.
+
+![image](https://user-images.githubusercontent.com/47574645/138586209-c48ece40-94ae-4177-8ce0-3bd39c5c444c.png)
