@@ -10,7 +10,7 @@
 * Python script to analyze and evaluate the resulting images on the desirable parameters based on the luminance distribution of the images.
 * Python script to plot and save the results.
 
-Please note that this repo is going to be updated and a unified program to do the mentioned tasks will be published. So, stay tuned!
+Please note that this repo is going to be updated, and a unified program to do the mentioned tasks will be published. So, stay tuned!
 
 _Climate Data_ folder includes the lighting and sky conditions of Tehran's climate.
 
@@ -20,4 +20,12 @@ _RadianceRendering_ folder includes the scripts for Radiance renderings.
 
 _analysis_ folder includes the scripts for the image analysis.
 
-![image](https://user-images.githubusercontent.com/47574645/138586209-c48ece40-94ae-4177-8ce0-3bd39c5c444c.png)
+# Procedure
+
+## Rendering
+
+Rendering starts with designing the required 3D file in a 3D CAD software like Rhinoceros.
+
+The sky descriptions of the climate are extracted from the EPW climate file of the city. Additionally, the climate's sky conditions data is also necessary for the following steps.
+
+![image](https://user-images.githubusercontent.com/47574645/138586916-1216f283-8569-47a6-aa37-ac7aad27480b.png)
